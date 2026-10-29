@@ -23,6 +23,7 @@ Thumbs.db
 *.class
 *.log
 *.log.*
+*.zip
 
 # Local database-tool metadata and credentials
 **/.dbeaver/
