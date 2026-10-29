@@ -1,0 +1,38 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# IDE and workspace files
+.metadata/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# Build and runtime output
+**/target/
+**/bin/
+**/build/
+*.class
+*.log
+*.log.*
+
+# Local database-tool metadata and credentials
+**/.dbeaver/
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+**/application.properties
+**/application-local.properties
+**/application-secrets.properties
+*.pem
+*.key

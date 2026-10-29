@@ -1,0 +1,21 @@
+# Copy this file to application.properties and set the variables in your environment.
+spring.datasource.url=${DB_URL:jdbc:mysql://localhost:3306/masaidb}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=${DB_USERNAME}
+spring.datasource.password=${DB_PASSWORD}
+
+# Admin credentials are required and must not be committed.
+app.admin.username=${APP_ADMIN_USERNAME}
+app.admin.password=${APP_ADMIN_PASSWORD}
+
+server.port=8088
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER
+spring.mvc.throw-exception-if-no-handler-found=true
+spring.web.resources.add-mappings=false
+
+logging.file.path=.
+logging.file.name=logfile.log
